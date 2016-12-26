@@ -68,7 +68,7 @@ def wakeup():
             traceback.print_exc()
             commonsense.uhoh()
 
-k.loadBrain('data/jarvis.brn')
+k.restoreBrain('data/jarvis.brn')
 try:
     f = open('data/jarvis.cred')
 except IOError:
